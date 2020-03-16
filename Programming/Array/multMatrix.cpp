@@ -3,12 +3,12 @@ using namespace std;
 #define SIZE 1000
 
 int multMat (int M1[SIZE][SIZE],int M2[SIZE][SIZE],int row1,int col1,int row2,int col2)
-{   int qwe=1;
+{   int qwe;
     if(col1!=row2)
     {
         qwe=-1;
     }
-    return qwe;
+    return col1;
      
 }
 
